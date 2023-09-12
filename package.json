@@ -1,0 +1,14 @@
+{
+  "name": "bun-macros",
+  "module": "build.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun run build.ts && bun run dist/index.js"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
